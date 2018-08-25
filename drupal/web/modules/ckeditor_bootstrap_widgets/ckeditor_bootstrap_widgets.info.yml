@@ -1,0 +1,13 @@
+name: CKEditor Bootstrap Widgets
+type: module
+description: CKEditor Bootstrap Widgets by JS+. http://js.plus/products/bootstrap-widgets
+package: CKEditor
+# core: 8.x
+dependencies:
+  - ckeditor
+  - ckeditor_bootstrap_include
+
+version: '8.x-1.4'
+core: '8.x'
+project: 'ckeditor_bootstrap_widgets'
+datestamp: 1515052183362

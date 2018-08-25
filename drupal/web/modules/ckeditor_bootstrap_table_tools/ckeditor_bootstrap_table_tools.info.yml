@@ -1,0 +1,13 @@
+name: CKEditor Bootstrap Table Tools
+type: module
+description: CKEditor Bootstrap Table Tools by JS+. http://js.plus/products/table-tools
+package: CKEditor
+# core: 8.x
+dependencies:
+  - ckeditor
+  - ckeditor_bootstrap_include
+
+version: '8.x-1.4'
+core: '8.x'
+project: 'ckeditor_bootstrap_table_tools'
+datestamp: 1515052183388

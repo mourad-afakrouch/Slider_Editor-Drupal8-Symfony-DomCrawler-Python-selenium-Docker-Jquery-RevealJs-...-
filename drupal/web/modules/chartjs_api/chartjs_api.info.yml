@@ -1,0 +1,11 @@
+name: ChartJS API
+type: module
+description: API for integration with Chart.js library
+# core: 8.x
+package: JS libraries
+
+# Information added by Drupal.org packaging script on 2017-10-26
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'chartjs_api'
+datestamp: 1509033246

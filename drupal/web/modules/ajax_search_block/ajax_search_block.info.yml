@@ -1,0 +1,11 @@
+name: AJAX search block
+description: AJAX search block module aims to provide a custom block with a small search box to search all the contents in the databases
+package: Search
+# core: 8.x
+type: module
+configure: ajax_search_block.admin_settings
+# Information added by Drupal.org packaging script on 2017-07-24
+version: '8.x-1.3'
+core: '8.x'
+project: 'ajax_search_block'
+datestamp: 1500894545

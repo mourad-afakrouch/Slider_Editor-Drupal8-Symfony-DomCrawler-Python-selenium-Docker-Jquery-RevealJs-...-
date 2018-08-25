@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Main code for CKEditor Bootstrap Table Tools module.
+ */
+
+/**
+ * Implements hook_ckeditor_plugin().
+ */
+function ckeditor_bootstrap_table_tools_ckeditor_plugin() {
+  return array(
+    'jsplusBootstrapTableTools' => array(
+      'name' => 'jsplusBootstrapTableTools',
+      'desc' => t('CKEditor Bootstrap Table Tools. See <a href=":addon_page_url">@addon_page_title</a> for more details.',
+        array(
+          ':addon_page_url' => 'http://js.plus/products/table-tools',
+          '@addon_page_title' => t('addon page'),
+        )),
+      'path' => base_path() . 'libraries/jsplusBootstrapTableTools'
+    ),
+  );
+}
